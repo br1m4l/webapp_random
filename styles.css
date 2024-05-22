@@ -6,18 +6,6 @@
     font-style: normal;
 }
 
-/* Styles pour les petits écrans */
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 16px; /* Réduire la taille de la police */
-    }
-    span {
-        font-size: 8vw; /* Réduire la taille de la police pour le texte du gagnant */
-        border-width: 0.5vw; /* Réduire l'épaisseur de la bordure */
-        padding: 2vw; /* Réduire l'espace autour du texte */
-    }
-}
-
 body {
     font-family: 'Zeyada', sans-serif; /* Utiliser la police Zeyada pour le corps du document */
     color: white; /* Mettre le texte en blanc */
@@ -38,4 +26,16 @@ span {
     border: 1vw solid white; /* Ajouter une bordure relative à la largeur de la vue */
     border-radius: 25% 75% 15% 85% / 75% 30% 70% 25%; /* Ajouter un arrondi aux coins du texte */
     padding: 5vw; /* Ajouter un espace autour du texte en utilisant des unités relatives */    
+}
+
+/* Styles pour les petits écrans */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px; /* Réduire la taille de la police */
+    }
+    span {
+        font-size: 8vw; /* Réduire la taille de la police pour le texte du gagnant */
+        border-width: 0.5vw; /* Réduire l'épaisseur de la bordure */
+        padding: 2vw; /* Réduire l'espace autour du texte */
+    }
 }
