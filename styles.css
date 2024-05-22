@@ -7,23 +7,23 @@
 }
 
 body {
-    font-family: 'Zeyada', sans-serif; /* Utiliser la police Roboto pour le corps du document */
+    font-family: 'Zeyada', sans-serif; /* Utiliser la police Zeyada pour le corps du document */
     color: white; /* Mettre le texte en blanc */
     display: flex; /* Utiliser flexbox pour le centrage */
     justify-content: center; /* Centrer horizontalement */
     align-items: center; /* Centrer verticalement */
     height: 100vh; /* Prendre toute la hauteur de la vue */
     margin: 0; /* Supprimer les marges par défaut */
-    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59 ); /* Appliquer un dégradé linéaire comme fond */
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* Appliquer un dégradé linéaire comme fond */
     user-select: none; /* Empêcher la sélection de texte */
     text-align: center; /* Centrer le texte horizontalement */
 }
 
 span {
-    font-size: 200px; /* Augmenter la taille de la police pour une meilleure lisibilité */
+    font-size: 10vw; /* Utiliser une taille de police relative à la largeur de la vue pour plus de flexibilité */
     font-weight: bold; /* Mettre le texte du gagnant en gras */
     text-transform: uppercase; /* Mettre le texte en majuscules */
-    border: 20px solid white; /* Ajouter une bordure */
+    border: 1vw solid white; /* Ajouter une bordure relative à la largeur de la vue */
     border-radius: 25% 75% 15% 85% / 75% 30% 70% 25%; /* Ajouter un arrondi aux coins du texte */
-    padding: 50px; /* Ajouter un espace autour du texte */    
+    padding: 5vw; /* Ajouter un espace autour du texte en utilisant des unités relatives */    
 }
