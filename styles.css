@@ -1,0 +1,29 @@
+/* Définir les polices locales */
+@font-face {
+    font-family: 'Zeyada';
+    src: url('fonts/Zeyada-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Zeyada', sans-serif; /* Utiliser la police Roboto pour le corps du document */
+    color: white; /* Mettre le texte en blanc */
+    display: flex; /* Utiliser flexbox pour le centrage */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; /* Prendre toute la hauteur de la vue */
+    margin: 0; /* Supprimer les marges par défaut */
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59 ); /* Appliquer un dégradé linéaire comme fond */
+    user-select: none; /* Empêcher la sélection de texte */
+    text-align: center; /* Centrer le texte horizontalement */
+}
+
+span {
+    font-size: 200px; /* Augmenter la taille de la police pour une meilleure lisibilité */
+    font-weight: bold; /* Mettre le texte du gagnant en gras */
+    text-transform: uppercase; /* Mettre le texte en majuscules */
+    border: 20px solid white; /* Ajouter une bordure */
+    border-radius: 25% 75% 15% 85% / 75% 30% 70% 25%; /* Ajouter un arrondi aux coins du texte */
+    padding: 50px; /* Ajouter un espace autour du texte */    
+}
